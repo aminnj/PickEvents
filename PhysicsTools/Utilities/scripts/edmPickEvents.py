@@ -14,7 +14,7 @@ from FWCore.PythonUtilities.LumiList   import LumiList
 import das_client
 import json
 from pprint import pprint
-import datetime
+from datetime import datetime
 
 
 help = """
@@ -127,7 +127,7 @@ def guessEmail():
 
 
 def setupCrabDict (options):
-    date = datetime.date.today()
+    date = datetime.now().strftime('%Y%m%d_%H%M%S')
     crab = {}
     base = options.base
     crab['runEvent']        = '%s_runEvents.txt' % base
