@@ -191,7 +191,7 @@ config.Data.lumiMask = '%(json)s'
 
 config.section_("Site")
 ## Change site name accordingly
-config.Site.storageSite = "T2_US_Wisconsin"
+config.Site.storageSite = "T2_US_UCSD"
 
 '''
 
