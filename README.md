@@ -1,7 +1,10 @@
 Syntax is ```edmPickEvents.py [DATASET] [EVENTSFILE]```.
 The events file ("ECALHoles_DR010.txt" in this case) must be of the form:
+
 run:lumi:event
+
 run:lumi:event
+
 ...
 
 Setup:
