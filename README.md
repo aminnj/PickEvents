@@ -19,6 +19,6 @@ rm -rf PickEvents
 scram b -j 10
 cmsenv
 source /cvmfs/cms.cern.ch/crab3/crab.sh
-edmPickEvents.py  "/MET/Run2015A-PromptReco-v1/RECO" ECALHoles_DR010.txt
+edmPickEvents.py  "/MET/Run2015A-PromptReco-v1/RECO" ECALHoles_DR010.txt --crab
 crab submit -c pickevents_crab.py
 ```
