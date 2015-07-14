@@ -256,7 +256,7 @@ https://twiki.cern.ch/twiki/bin/view/CMS/PickEvents ''')
             eventList.append(event)
         source.close()
 
-    if len (eventList) > 20:
+    if len (eventList) > 200:
         options.crab = True
 
     if options.crab:
